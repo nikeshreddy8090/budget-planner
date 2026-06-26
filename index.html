@@ -1,0 +1,57 @@
+!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Real Time Budget Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>💰 Real Time Budget Planner</h1>
+
+    <div class="input-box">
+
+        <h2>Add Income</h2>
+
+        <input type="number" id="income" placeholder="Enter income">
+
+        <button onclick="addIncome()">Add Income</button>
+
+
+        <h2>Add Expense</h2>
+
+        <input type="text" id="expenseName" placeholder="Expense name">
+
+        <input type="number" id="expenseAmount" placeholder="Expense amount">
+
+        <button onclick="addExpense()">Add Expense</button>
+
+    </div>
+
+
+    <div class="result">
+
+        <h3>Total Income : ₹<span id="totalIncome">0</span></h3>
+
+        <h3>Total Expense : ₹<span id="totalExpense">0</span></h3>
+
+        <h3>Balance : ₹<span id="balance">0</span></h3>
+
+    </div>
+
+
+    <h2>Expense History</h2>
+
+    <ul id="expenseList"></ul>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
