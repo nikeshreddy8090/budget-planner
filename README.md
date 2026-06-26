@@ -81,8 +81,4 @@ This project helped in understanding:
 
 Author
 
-**Your Name**
-
-**College:** Your College Name
-
-**Department:** Computer Science / Information Technology
+Nikesh Reddy
